@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -108,7 +110,7 @@
             <li class="box"><a href="#">Home</a></li>
             <li class="box"><a href="#skills">Skills</a></li>
             <li class="box"><a href="#project">Project</a></li>
-            <li class="box"><a href="#contact">Contact</a></li>
+            <li class="box"><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -142,10 +144,10 @@
       <!-- Start of Slider & Skills -->
 
       <div class="skills" id="skills">
-        <p>My Skills</p>
+        <h1>My Skills</h1>
         <div
           class="slider"
-          style="--width: 100px; --height: 200px; --quantity: 13"
+          style="--width: 100px; --height: 200px; --quantity: 6"
         >
           <div class="list">
             <div class="item" style="--position: 1">
@@ -161,31 +163,39 @@
               <img src="./js.png" alt="" />
             </div>
             <div class="item" style="--position: 5">
-              <img src="./aws.png" alt="" />
+              <img src="./python.png" alt="" />
             </div>
             <div class="item" style="--position: 6">
-              <img src="./mondb.svg" alt="" />
-            </div>
-            <div class="item" style="--position: 7">
               <img src="./mysql.png" alt="" />
             </div>
-            <div class="item" style="--position: 8">
+          </div>
+        </div>
+
+        <div
+          class="slider"
+          style="--width: 100px; --height: 200px; --quantity: 7"
+        >
+          <div class="list">
+            <div class="item" style="--position: 1">
+              <img src="./aws.png" alt="" />
+            </div>
+            <div class="item" style="--position: 2">
+              <img src="./mondb.svg" alt="" />
+            </div>
+            <div class="item" style="--position: 3">
               <img src="./wordprs.png" alt="" />
             </div>
-            <div class="item" style="--position: 9">
+            <div class="item" style="--position: 4">
               <img src="./azure.png" alt="" />
             </div>
-            <div class="item" style="--position: 10">
+            <div class="item" style="--position: 5">
               <img src="./reactjs.png" alt="" />
             </div>
-            <div class="item" style="--position: 11">
+            <div class="item" style="--position: 6">
               <img src="./DigitalOcean.png" alt="" />
             </div>
-            <div class="item" style="--position: 12">
+            <div class="item" style="--position: 7">
               <img src="./nodejs.png" alt="" />
-            </div>
-            <div class="item" style="--position: 13">
-              <img src="./python.png" alt="" />
             </div>
           </div>
         </div>
@@ -194,48 +204,42 @@
       <!-- End of Slider & Skills -->
 
       <div class="projects" id="project">
-        <p>My Projects</p>
+        <h1>My Projects</h1>
         <div class="proj-box">
           <!-- Project 1 -->
           <div class="image">
-            <img src="proj2.png" alt="Project 1" />
-            <div class="overlay">
-              <p>Project 1</p>
-            </div>
-          </div>
-
-          <!-- Project 2 -->
-          <div class="image">
-            <img src="proj1.png" alt="Project 2" />
+            <img src="proj1.png" alt="Project 1" />
             <div class="overlay">
               <p>Project 2</p>
             </div>
           </div>
 
-          <!-- Project 3 -->
+          <!-- Project 2 -->
           <div class="image">
-            <img src="proj3.png" alt="Project 3" />
+            <img src="proj3.png" alt="Project 2" />
             <div class="overlay">
-              <p>Project 3</p>
+              <p>Project 1</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="contact" id="contact">
-        <p>Contact Me</p>
-        <form>
-          <div class="input-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" placeholder="Your Name" required />
-            <label for="email">Email</label>
-            <input type="text" id="email" placeholder="Your Email" required />
-          </div>
-          <label for="message">Subject</label>
-          <textarea id="message" placeholder="Your Message" required></textarea>
-          <br />
-          <input type="submit" value="Submit" />
-        </form>
+      <div class="connection">
+        <h1>My Connections</h1>
+        <div class="icon">
+          <a href="https://www.instagram.com/alisif17/"
+            ><i class="fa-brands fa-instagram fa-beat fa-2xl"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/khalfallaha17/"
+            ><i class="fa-brands fa-linkedin fa-beat fa-2xl"></i
+          ></a>
+          <a href="https://github.com/saifdz1"
+            ><i class="fa-brands fa-github fa-beat fa-2xl"></i
+          ></a>
+          <a href="https://www.facebook.com/djelfa12"
+            ><i class="fa-brands fa-facebook fa-beat fa-2xl"></i
+          ></a>
+        </div>
       </div>
     </main>
 
@@ -243,7 +247,7 @@
       <div class="foot">
         <p>
           Designed With ❤️ By
-          <a href="https://instagram.com/alisif17">Saif</a>
+          <a href="https://www.linkedin.com/in/khalfallaha17/">Saif</a>
         </p>
       </div>
     </footer>
